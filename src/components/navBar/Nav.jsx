@@ -5,15 +5,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
       <Container>
-        <Navbar.Brand href="#home">Система доставки</Navbar.Brand>
+        <Navbar.Brand href="#home">Delivery System</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Кур'єри</Nav.Link>
-            <Nav.Link href="#link">Карта</Nav.Link>
-            <Nav.Link href="#link">Доставки</Nav.Link>
+            <Nav.Link href="#home">Couriers</Nav.Link>
+            <Nav.Link href="#link">Map</Nav.Link>
+            <Nav.Link href="#link">Deliveries</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
