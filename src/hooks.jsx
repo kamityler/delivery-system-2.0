@@ -3,8 +3,8 @@ import axios from "axios";
 
 export const useMap = () => {
     const [position, setPosition] = useState({
-        lat: 49.828,
-        lng: 24.054,
+        lat: 51,
+        lng: 0,
     });
     useEffect(()=>{
         navigator.geolocation.getCurrentPosition(
@@ -17,6 +17,7 @@ export const useMap = () => {
                         try {
                             const { data } = await axios.get("https://ipapi.co/json");
                             setPosition({lat:data.latitude, lng:data.longitude});
+                            
                         } catch (err) {
                             console.error(err);
                         }
