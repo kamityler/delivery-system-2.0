@@ -32,6 +32,7 @@ const Map = () => {
   }, []);
 
   return (
+    
     <MapContainer
       center={[latitude, longitude]}
       zoom={15}
@@ -44,7 +45,7 @@ const Map = () => {
       />
       <Marker position={[latitude, longitude]}>
         <Popup>
-            my popup
+            {latitude}, {longitude}
         </Popup>
       </Marker>
     </MapContainer>
