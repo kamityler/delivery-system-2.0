@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios";
 
-export const useMap = () => {
+export const useMapUserLocation = () => {
     const [position, setPosition] = useState({
         lat: 51,
         lng: 0,
