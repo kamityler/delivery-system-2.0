@@ -3,8 +3,8 @@ import axios from "axios";
 
 export const useMapUserLocation = () => {
     const [position, setPosition] = useState({
-        lat: 51,
-        lng: 0,
+        lat: 49.840,
+        lng: 24.031,
     });
     useEffect(()=>{
         navigator.geolocation.getCurrentPosition(

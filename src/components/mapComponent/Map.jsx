@@ -43,7 +43,7 @@ const Map = () => {
         <MapContainer className='map-container' center={position} zoom={15} ref={mapRef}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'/>
             <Marker position={position}>
-                <Popup> your position </Popup>
+                <Popup> {position.lat} , {position.lng} </Popup>
             </Marker>
         </MapContainer>
     );
