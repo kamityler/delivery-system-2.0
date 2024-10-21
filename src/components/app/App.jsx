@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
 import Map from '../mapComponent/Map'
 import NavBar from '../navBar/Nav'
@@ -8,8 +9,12 @@ function App() {
 
   return (
     <>
-        <NavBar/>
-        <Map/>
+        <BrowserRouter>
+            <NavBar/>
+            <Routes>
+                <Route path = "/" element = {<Map/>}/>
+            </Routes>
+        </BrowserRouter>
     </>
   )
 }
