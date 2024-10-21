@@ -2,6 +2,7 @@ import { useState } from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
 import Map from '../mapComponent/Map'
+import MainPage from '../../page/MainPage/MainPage'
 import NavBar from '../navBar/Nav'
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <BrowserRouter>
             <NavBar/>
             <Routes>
-                <Route path = "/" element = {<Map/>}/>
+                <Route path = "/" element = { <MainPage/> }/>
+                <Route path = "/map" element = { <Map/> }/>
             </Routes>
         </BrowserRouter>
     </>
