@@ -5,6 +5,7 @@ import Map from '../mapComponent/Map'
 import MainPage from '../../page/MainPage/MainPage'
 import NavBar from '../navBar/Nav'
 import NotExistingPage from '../../page/NotExistingPage/NotExistingPage'
+import WelcomePage from '../../page/WelcomePage/WelcomePage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,8 +15,9 @@ function App() {
         <BrowserRouter>
             <NavBar/>
             <Routes>
-                <Route path = "/" element = { <MainPage/> }/>
-                <Route path = "/map" element = { <Map/> }/>
+                <Route path = '/' element = { <WelcomePage/> }/>
+                <Route path = '/map' element = { <Map/> }/>
+                <Route path = '/main' element = {<MainPage/>}/>
 
                 <Route path = '*' element = { <NotExistingPage/> } /> 
             </Routes>
