@@ -1,9 +1,9 @@
 function SignupForm(){
     return (
         <>
-        <p>this is login form</p>
+        <p>this is signup form</p>
         </>
     )
 }
 
-export default SipnupForm;
+export default SignupForm;
