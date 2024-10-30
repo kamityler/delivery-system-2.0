@@ -18,13 +18,12 @@ function App() {
         <BrowserRouter>
             <NavBar/>
             <Routes>
-                <Route path = '/' element = { <WelcomePage/> }/>
                 <Route path = '/map' element = { <Map/> }/>
                 <Route path = '/main' element = {<MainPage/>}/>
 
                 <Route path = '/login' element = { <WelcomePage children = {<LoginForm/>}/>} />
                 <Route path = '/signup' element = { <WelcomePage children = {<SignupForm/>}/>} />
-                <Route path = '/welcome' element = { <WelcomePage children = {<LinksToLogin/>}/>} />
+                <Route path = '/' element = { <WelcomePage children = {<LinksToLogin/>}/>} />
 
 
                 <Route path = '*' element = { <NotExistingPage/> } /> 
