@@ -1,7 +1,7 @@
 const WelcomePage = ({children}) => {
     return (
         <>
-            <p>Welcome to ypur logisti system assist</p>
+            <p>Welcome to your logistic system assist!</p>
             {children}
 
         </>
