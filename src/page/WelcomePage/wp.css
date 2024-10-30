@@ -1,0 +1,9 @@
+@import '../../components/app/App.css';
+
+.left-side{
+    background-color: var(--second-color);
+}
+
+.right-side{
+    background-color: var(--fourth-color);
+}

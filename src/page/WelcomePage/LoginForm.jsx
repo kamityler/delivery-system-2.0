@@ -1,11 +1,12 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
+import './wp.css'
 
 function LoginForm(){
     return (
         <Form>
-            <Form.Group>
+            <Form.Group >
                 <Form.Label controlId="formBasicEmail">Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter your email"/>
             </Form.Group>

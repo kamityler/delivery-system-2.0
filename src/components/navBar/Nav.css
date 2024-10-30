@@ -1,4 +1,28 @@
-.label{
-    color: yellow;
-    font-size: 200px;
+@import '../../components/app/App.css';
+
+.nav-brand,
+.nav-link{
+    color: var(--second-color);
+    transition: text-shadow 0.3s ease;
 }
+
+.nav-brand{
+    font-size: 1.5rem;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+}
+
+.nav-brand:hover,
+.nav-link:hover{
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.navbar-bg{
+    background-color: var(--first-color);
+
+}
+
