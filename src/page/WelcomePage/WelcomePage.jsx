@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const WelcomePage = ({children}) => {
     return (
 
-        <Container fluid className="vh-100">
+        <Container fluid className="wp-container">
             <Row className="h-100">
                 <Col xs={12} md={6} className="d-flex align-items-center justify-content-center left-side">
                     <div>
