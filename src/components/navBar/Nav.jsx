@@ -5,7 +5,7 @@ import './Nav.css';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="navbar-bg" sticky="top" >
+    <Navbar expand="lg" className="navbar-bg nb-container" sticky="top" >
       <Container>
         <Navbar.Brand className="label nav-brand" href="/">Delivery System</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -7,11 +7,11 @@
 }
 
 .nav-brand{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .nav-link{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .nav-brand:hover,
@@ -26,3 +26,6 @@
 
 }
 
+.nb-container{
+    height: 8vh;
+}
