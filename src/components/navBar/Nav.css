@@ -1,8 +1,8 @@
-@import '../../components/app/App.css';
+@import '../../index.css';
 
 .nav-brand,
 .nav-link{
-    color: var(--second-color);
+    color: var(--second-color) !important;
     transition: text-shadow 0.3s ease;
 }
 
