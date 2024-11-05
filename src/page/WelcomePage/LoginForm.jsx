@@ -6,6 +6,7 @@ import './wp.css'
 function LoginForm(){
     return (
         <Form>
+            <h1 className='form-header'>Login now!</h1>
             <Form.Group >
                 <Form.Label controlId="formBasicEmail">Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter your email"/>
