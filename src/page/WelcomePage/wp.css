@@ -15,3 +15,7 @@
 .form-header{
     text-align: center;
 }
+
+.header-wp, .text-wp{
+    text-align: right;
+}
