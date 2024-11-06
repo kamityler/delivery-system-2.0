@@ -15,7 +15,9 @@ function LoginForm(){
                 <Form.Label controlId="formBasicPassword">Password</Form.Label>
                 <Form.Control type="password" placeholder="Enter your password"/>
             </Form.Group>
-            <Button type="submit"> Enter </Button>
+            <Button type="submit"> Login </Button>
+            <br/>
+            <a className='form-link' href='signup'>Don't have account? Click here!</a>
         </Form>
     )
 }
